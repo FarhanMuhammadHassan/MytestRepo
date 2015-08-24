@@ -11,6 +11,7 @@ Partial Class _Default
         Dim ValueFromEmailSending As String = EmailSending.checkingEmailSending() & "<br/>"
         Response.Write(ValueFromEmailSending.ToString())
         Response.Write(Stringvalue.ToString())
+        Dim variablefortest As Integer = 0
 
     End Sub
 
